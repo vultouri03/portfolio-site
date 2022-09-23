@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(165,42,42);
+    color:rgb(255,230,230);
+    font-family: Arial, Helvetica, sans-serif;
+    padding:0px;
+    margin: 0px;
+    
+}
+
+div {
+    background-color:  rgb(0, 0, 128);
+    width: 50vw;
+    margin: 2em auto;
+    padding: 2em;
+    text-align: center;
+    border-style: ridge;
+    border-color: violet;
+    box-shadow: 5px 10px rgba(10,10,50, 10);
+}
+
+nav a {
+    background-color:rgb(175,238,238);
+    border-style:solid;
+    border-color: antiquewhite;
+    color: black;
+    font-size: 2em;
+}
+
+nav a:hover {
+    background-color: rgb(12, 59, 59);
+    color: rgb(255,255,255);
+}
+
+.righty {
+    margin-right: 0vw;
+    text-align: right;
+}
+
+.lefty {
+    margin-left: 0vw;
+    text-align: left;
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+}
+
+ol {
+    display: inline-block;
+    text-align: left;
+}
+
+div img {
+    display: block;
+    width: 25em;
+    margin: auto;
+}
