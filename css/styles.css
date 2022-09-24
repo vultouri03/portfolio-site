@@ -18,11 +18,20 @@ div {
     box-shadow: 5px 10px rgba(10,10,50, 10);
 }
 
+a{
+    color: rgb( 250, 235, 215);
+   
+}
+
+a:hover{
+    color: rgb(12,59,59);
+}
+
 nav a {
     background-color:rgb(175,238,238);
     border-style:solid;
-    border-color: antiquewhite;
-    color: black;
+    border-color: rgb( 250, 235, 215);
+    color: rgb(0,0,0);
     font-size: 2em;
 }
 
@@ -32,27 +41,34 @@ nav a:hover {
 }
 
 .righty {
-    margin-right: 0vw;
+    margin-right: 2vw;
     text-align: right;
 }
 
 .lefty {
-    margin-left: 0vw;
+    margin-left: 2vw;
     text-align: left;
 }
 
 ul {
     display: inline-block;
     text-align: left;
+    margin-bottom: 2em;
 }
 
 ol {
     display: inline-block;
     text-align: left;
+    margin-bottom: 2em;
+}
+
+table {
+    margin-bottom: 2em;
 }
 
 div img {
     display: block;
-    width: 25em;
-    margin: auto;
+    width: 15em;
+    margin-left: 0vw;
+    margin-bottom: 2em;
 }
