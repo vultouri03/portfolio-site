@@ -69,6 +69,7 @@ main div{
     text-align: center;
     color: white;
     margin: 1vh auto;
+    padding: 1vw auto;
     border-style: ridge;
     border-color: violet;
     display: flex;
@@ -97,7 +98,7 @@ main a {
     color: aliceblue;
     text-decoration: none;
     margin-top: 3vh;
-    margin-bottom: 1vh;
+    margin-bottom: calc(1vh+3px);
 }
 
 main a:hover {
