@@ -1,18 +1,21 @@
 body {
     margin: 0px;
-    background-color: brown;
+    background-color: #9D3B4A;
+    animation: gradient 10s ease-in alternate;
 }
 
 nav {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
+    position: sticky;
+    top: 0px;
 }
 
 nav a {
     border-style: groove ;
-    background-color: aqua;
-    color: navy;
+    background-color: #BC5FAC;
+    color: #533665;
     flex: 1;
     text-align: center;
     text-decoration: none;
@@ -26,10 +29,10 @@ nav a:hover {
 header {
     display: flex;
     justify-content: center;
-    background-image: url(..//img/hero.png);
+    background-image: url(..//img/uraya-background.png);
     background-size: cover;
     height: 30vh;
-    background-position: center;
+    background-position: bottom;
 }
 
 header div {
@@ -54,8 +57,8 @@ main section {
     
 }
 
-main div {
-    background-color: navy;
+main div{
+    background-color: #533665;
     text-align: center;
     color: white;
     margin: 1vh auto;
@@ -78,7 +81,7 @@ main div div {
 
 main img {
     width: 30vw;
-    height: 100%;
+    height: 30vh;
     object-fit: cover;
     margin: auto;
 }
@@ -99,17 +102,54 @@ main a:hover {
 
 #projecten img {
     width: 50vw;
+    object-fit: cover;
 }
 
-footer section div {
+footer section {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
 }
 
+footer div{
+    background-color: #533665;
+    text-align: center;
+    color: white;
+    margin: 1vh auto;
+    border-style: ridge;
+    border-color: violet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    
+}
+
+footer a {
+    color: aliceblue;
+}
+
 footer img {
-    width:100%;
+    width: 6vw;
     height: 6vh;
+}
+
+iframe {
+    width: 100%;
+    object-fit:contain;
+}
+
+
+@keyframes gradient{
+    0% {
+        background-color: #9D3B4A;
+    }
+    50% {
+        background-color: #E98A50;
+    }
+    100% {
+        background-color: #9D3B4A;
+    }
 }
 
 @media (min-width: 600px) and (max-width: 1000px) {
@@ -118,7 +158,7 @@ footer img {
     }
 
     footer img {
-        width:100%;
+        width:8vh;
         height: 8vh;
     }
 
@@ -150,12 +190,12 @@ footer img {
 
     
     main div {
-        width: 95%;
+        width: 50vw;
     }
 
     main img {
         width: 20vw;
-        height: 100%;
+        height: 20vw;
         object-fit: cover;
         margin: auto;
     }

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio form</title>
+    <link rel="stylesheet" href="css/form.css">
+</head>
+
+<body>
+    <main>
+        <section>
+            <form action="bedankt.hmtl">
+                <div class="textform">
+                    <label for="firstname">voornaam:</label>
+                    <input type="text" id="firstname" name="firstname">
+                </div>
+                <div class ="textform">
+                    <label for="lastname">achternaam:</label>
+                    <input type="text" id="lastname" name="lastname">
+                </div>
+                <div class ="textform">
+                    <label for="email">email:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <h3>wat voor soort vraag heb je</h3>
+                <div>
+                    <input type="checkbox" name="projectVraag" id="projectVraag">
+                    <label for="projectVraag">een vraag over de projecten</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="hobbieVraag" id="hobbieVraag">
+                    <label for="hobbieVraag">een vraag over hobbies</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="opleidingVraag" id="opleidingVraag">
+                    <label for="opleidingVraag">een vraag over mijn opleiding</label>
+                </div>
+                <div class="textform">
+                    <label for="question">Your question</label>
+                    <input type="text" name="question" id="question">
+                </div>
+                <div>
+                    <label for="feedback">geef hier feedback op mijn portfolio site</label>
+                    <select name="feedback" id="feedback">
+                        <option value="0">it is bad</option>
+                        <option value="1">it could use improvement</option>
+                        <option value="2">it is okay</option>
+                        <option value="3">it looks great</option>
+                    </select>
+                </div>
+                <input type="submit" value="Submit">
+
+            </form>
+        </section>
+
+    </main>
+</body>
+
+</html>
