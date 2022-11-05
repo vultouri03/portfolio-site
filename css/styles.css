@@ -1,7 +1,14 @@
+:root {
+    --bg-color: #533665;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Xanh+Mono&display=swap');
+
 body {
     margin: 0px;
     background-color: #9D3B4A;
     animation: gradient 10s ease-in alternate;
+    font-family: 'Xanh Mono', monospace;
 }
 
 nav {
@@ -58,7 +65,7 @@ main section {
 }
 
 main div{
-    background-color: #533665;
+    background-color: var(--bg-color);
     text-align: center;
     color: white;
     margin: 1vh auto;
@@ -112,7 +119,7 @@ footer section {
 }
 
 footer div{
-    background-color: #533665;
+    background-color: var(--bg-color);
     text-align: center;
     color: white;
     margin: 1vh auto;
@@ -137,6 +144,14 @@ footer img {
 iframe {
     width: 100%;
     object-fit:contain;
+}
+
+h2  {
+    font-family: 'Lobster', cursive;
+}
+
+header {
+    font-family: 'Lobster', cursive;
 }
 
 
